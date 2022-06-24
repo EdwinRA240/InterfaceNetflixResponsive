@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header img {
+    max-width: 16%;
+    margin: 40px 40px;
+    min-width: 150px;
+}
+
+section {
+    color: #fff;
+}
+
+article {
+    width: 100%;
+    height: 100%;
+    margin: 20px auto;
+    padding: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+h1 {
+    width: 80%;
+    margin: 70px auto 50px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.perfiles {
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+ul li {
+    width: 200px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 0px auto;
+    font-size: larger;
+    font-weight: bold;
+    color: #b3b3b3;
+}
+
+li img {
+    max-width: 120px;
+    min-width: 120px;
+    margin: 15px;
+    border-radius: 4px;
+}
+
+li img:hover {
+    border: 4px white solid;
+} 
+
+img:hover > ul li {
+    color: #fff;
+} 
+
+.admin a {
+    width: 20%;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 3px;
+    display: flex;
+    border: #fff 1px solid;
+    justify-content: center;
+    background-color:black;
+    text-decoration: none;
+    color: #b3b3b3;
+    min-width: 190px;
+}
