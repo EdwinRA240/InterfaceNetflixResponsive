@@ -79,7 +79,7 @@ header .logo img {
 
 .inicio h1 {
     width: max-content;
-    font-size: 60px;
+    font-size: 400%;
     text-align: center;
     margin: 10px 0px;
 }
