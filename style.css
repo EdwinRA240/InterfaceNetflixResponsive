@@ -19,7 +19,7 @@ body img {
 
 .degradado {
     position: absolute;
-    background: radial-gradient(rgba(255, 255, 255, 0), rgb(0, 0, 0));
+    background: radial-gradient(rgba(255, 255, 255, 0.1), rgb(0, 0, 0));
     top: 0;
     bottom: 0;
     right: 0;
