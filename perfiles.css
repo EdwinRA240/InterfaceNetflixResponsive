@@ -11,7 +11,7 @@ body {
 
 header img {
     max-width: 16%;
-    margin: 40px 40px;
+    margin: 3rem 3rem;
     min-width: 150px;
 }
 
@@ -33,7 +33,7 @@ article {
 
 h1 {
     width: 80%;
-    margin: 70px auto 50px;
+    margin: 2rem auto;
     font-size: 50px;
     text-align: center;
 }
